@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common Class */
+h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.orange-btn {
+    background-color: #E76F51;
+    border: 1px solid #E76F51;
+    padding: 11px 36px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+.orange-btn:hover{
+    background: transparent;
+    border: 1px solid #E76F51;
+    color: white;
+}
+
+.orange-title {
+    font-size: 14px;
+    color: #E76F51;
+}
+
+.orange-color {
+    color: #E76F51;
+}
+
+.blue-color {
+    color: #23A6F0;
+}
+
+.devider {
+    width: 100px;
+    background-color: #E76F51;
+    margin: 0 auto;
+    border: 1px solid #E76F51;
+    border-radius: 29px;
+}
+
+.gray_img {
+  filter: grayscale(100%);
+}
+
+/* Hero Section */
+
+#hero {
+    width: 100%;
+    /* height: 698px; */
+    background: #264653;
+}
+
+.navigation .nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* === Blog === */
+.read-btn {
+    background-color: transparent;
+    border: 1px solid #E76F51;
+    padding: 11px 36px;
+    text-decoration: none;
+    color: #E76F51;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.read-btn:hover {
+    background-color: #E76F51;
+    color: white;
+}
+
+/* === Happy Client Section === */
+.happy-client .card img {
+    width: 149px;
+    height: 149px;
+}
+
+.card .card-body p {
+    color: #6C6C6C;
+}
+
+
+/* === contact-form === */
+.contact-form button:hover {
+    color: #E76F51;
+}
+
+/* === Footer === */
+footer{
+    background: #0B0D17;
+}
